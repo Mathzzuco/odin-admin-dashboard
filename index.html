@@ -16,6 +16,12 @@
     <script src="js/script.js" defer></script>
   </head>
   <body>
+    <!--
+    icons: mdi-view-dashboard, mdi-home, mdi-card-account-details-outline, mdi-message-reply,
+    mdi-clock-time-three, mdi-file-multiple, mdi-account-group, mdi-cog, mdi-help-box,
+    mdi-shield-check, mdi-magnify, mdi-bell, mdi-bell-ring-outline, mdi-star-plus, 
+    mdi-eye-plus-outline, mdi-source-fork
+    -->
     <div id="page-container">
       <nav id="nav-bar">
         <header class="nav-header">
@@ -67,6 +73,24 @@
           </a>
         </div>
       </nav>
+      <header class="header-container">
+        <div class="header">
+          <div class="up-header">
+            <div class="search">
+              <a href=".">
+                <i class="iconify" data-icon="mdi-magnify"></i>
+              </a>
+              <input type="text" class="search-bar" />
+            </div>
+            <div class="mini-user-info"></div>
+          </div>
+          <div class="down-header">
+            <div class="user-info"></div>
+            <div class="user-buttons"></div>
+          </div>
+        </div>
+      </header>
+      <main></main>
     </div>
   </body>
 </html>
