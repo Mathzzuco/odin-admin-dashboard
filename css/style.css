@@ -12,7 +12,7 @@ body {
 
 #nav-bar {
   display: grid;
-  grid-template-rows: 3rem 18rem 10rem;
+  grid-template-rows: 4rem 18rem 10rem;
   grid-row-start: 1;
   grid-row-end: 3;
   row-gap: 3.5rem;
@@ -103,13 +103,14 @@ body {
 
 .up-header {
   display: grid;
-  grid-template-columns: 4fr 2.5fr;
+  grid-template-columns: 7fr 3fr;
+  column-gap: 10%;
 }
 
 .search {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
 }
 
 .search .iconify {
@@ -129,6 +130,29 @@ body {
 
 .search input[type="text"]:focus {
   outline: none;
+}
+
+.mini-user-info {
+  display: grid;
+  grid-template-columns: 0.1fr 0.1fr 0.1fr;
+  column-gap: 1.875rem;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.mini-user-info .iconify {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.mini-user-info img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 1.5625rem;
+}
+
+.mini-user-info h4 {
+  font-weight: bolder;
 }
 
 main {
