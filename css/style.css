@@ -12,10 +12,11 @@ body {
 
 #nav-bar {
   display: grid;
-  grid-template-rows: 4rem 18rem 10rem;
+  /*grid-template-rows: 1fr 5fr 2.5fr;*/
+  grid-template-rows: 10% 50% 25%;
   grid-row-start: 1;
   grid-row-end: 3;
-  row-gap: 3.5rem;
+  row-gap: 6%;
   background-color: #1893d4;
 }
 
@@ -34,8 +35,8 @@ body {
 }
 
 .option-container .iconify {
-  min-width: 1.25rem;
-  min-height: 1.25rem;
+  min-width: 10%;
+  min-height: 50%;
   color: #cae4f5;
 }
 
@@ -46,16 +47,17 @@ body {
 }
 
 .nav-header .option-container {
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding: 1rem;
   column-gap: 0.75rem;
   min-width: 3rem;
   min-height: 3rem;
 }
 
 .nav-header .iconify {
-  min-width: 3rem;
-  min-height: 3rem;
+  width: 3rem;
+  height: 3rem;
+  min-width: 10%;
+  min-height: 50%;
 }
 
 .nav-header h1 {
@@ -72,12 +74,13 @@ body {
 }
 
 .nav-items .option-container .iconify {
-  min-width: 1.5rem;
-  min-height: 1.5rem;
+  min-width: 10%;
+  min-height: 50%;
 }
 
 .nav-items .option-container h3 {
-  font-size: 1.375rem;
+  font-size: 140%;
+  /*font-size: 1.375rem;*/
 }
 
 .nav-items .option-container:hover {
@@ -97,8 +100,11 @@ body {
 
 .header {
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  margin: 1.25rem 2.5rem;
+  grid-template-rows: 0.5fr 1fr;
+  row-gap: 20%;
+  margin: 1.25rem 0;
+  margin-left: 2.5rem;
+  margin-right: 4rem;
 }
 
 .up-header {
@@ -134,6 +140,7 @@ body {
 
 .mini-user-info {
   display: grid;
+  justify-content: end;
   grid-template-columns: 0.1fr 0.1fr 0.1fr;
   column-gap: 1.875rem;
   align-items: center;
@@ -148,10 +155,37 @@ body {
 .mini-user-info img {
   width: 2.5rem;
   height: 2.5rem;
-  border-radius: 1.5625rem;
+  border-radius: 50%;
 }
 
 .mini-user-info h4 {
+  font-weight: bolder;
+}
+
+.down-header {
+  display: grid;
+  grid-template-columns: 5fr 3.5fr;
+  column-gap: 15%;
+}
+
+.user-info {
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+  column-gap: 4%;
+  align-items: center;
+}
+
+.user-info img {
+  width: 4.375rem;
+  height: 4.375rem;
+  border-radius: 50%;
+}
+
+.welcome p {
+  font-weight: bolder;
+}
+
+.welcome h4 {
   font-weight: bolder;
 }
 
