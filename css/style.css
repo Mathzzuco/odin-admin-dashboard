@@ -37,12 +37,12 @@ body {
 .option-container .iconify {
   min-width: 10%;
   min-height: 50%;
-  color: #cae4f5;
+  color: #fefffe;
 }
 
 .option-container h1,
 .option-container h3 {
-  color: #cae4f5;
+  color: #fefffe;
   font-weight: bolder;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .nav-items .option-container:hover {
-  background-color: #cae4f5;
+  background-color: #fefffe;
 }
 
 .nav-items .option-container:hover h3,
@@ -129,7 +129,7 @@ body {
   width: 100%;
   height: 1.75rem;
   padding-left: 0.4375rem;
-  background-color: #e2e8f0;
+  background-color: #e2e9f1;
   border: none;
   border-radius: 1.25rem;
 }
@@ -140,6 +140,7 @@ body {
 
 .mini-user-info {
   display: grid;
+  margin-right: 8%;
   justify-content: end;
   grid-template-columns: 0.1fr 0.1fr 0.1fr;
   column-gap: 1.875rem;
@@ -196,6 +197,23 @@ body {
   font-weight: bolder;
   /*font-size: 24px;*/
   font-size: 140%;
+}
+
+.user-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1.875rem;
+  align-items: center;
+}
+
+.user-buttons button {
+  height: 50%;
+  font-size: 90%;
+  font-weight: bold;
+  color: #fcfffe;
+  background-color: #1892d5;
+  border-radius: 100px;
+  border: none;
 }
 
 main {
