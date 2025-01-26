@@ -269,10 +269,39 @@ main {
 .project {
   width: 100%;
   height: 100%;
+  display: grid;
+  grid-template-rows: 60% 40%;
   padding-left: 1.25rem;
+  padding-right: 1.875rem;
   background-color: #fffefe;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container h4 {
+  line-height: 24px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.text-container p {
+  line-height: 18px;
+  color: #8b8b8a;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.interaction-icons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: end;
+  align-items: center;
 }
 
 .announcements-section {
