@@ -100,7 +100,7 @@ body {
   height: calc(100% - 1.25rem);
   display: grid;
   grid-template-rows: 26% 50%;
-  row-gap: 19%;
+  row-gap: 15%;
   margin-top: 1.25rem;
   margin-left: 2.5rem;
   margin-right: 4rem;
@@ -381,4 +381,40 @@ main {
   background-color: #fffefe;
   border-radius: 0.5rem;
   box-shadow: 2px 4px 4px #ced2da;
+}
+
+.trending-wrapper {
+  height: 100%;
+  display: grid;
+  row-gap: 10%;
+  align-content: space-evenly;
+  padding: 24px;
+}
+
+.trending-topic {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 8%;
+  align-items: center;
+}
+
+.trending-topic img {
+  width: 3.25vw;
+  height: auto;
+  border-radius: 50%;
+}
+
+.trending-topic-info {
+  display: grid;
+  row-gap: 20%;
+}
+
+.trending-topic-info h3 {
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.trending-topic-info p {
+  font-size: 1vw;
+  color: #888888;
 }
