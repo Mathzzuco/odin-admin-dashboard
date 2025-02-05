@@ -246,6 +246,7 @@ body a {
 main {
   width: calc(100% - 1.875rem);
   height: calc(100% - 7rem);
+  max-height: 110vh;
   display: grid;
   grid-template-columns: 75% 25%;
   grid-template-rows: 1fr 1fr;
@@ -274,6 +275,7 @@ main {
   row-gap: 1.5rem;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, min-content);
+  overflow: hidden;
 }
 
 .project-wrapper {
