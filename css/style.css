@@ -41,8 +41,8 @@ body a {
 }
 
 .option-container .iconify {
-  min-width: 10%;
-  min-height: 50%;
+  width: calc(1.5vh + 1vw);
+  height: auto;
   color: #fefffe;
 }
 
@@ -63,7 +63,7 @@ body a {
 }
 
 .nav-header h1 {
-  font-size: calc(1vw + 80%);
+  font-size: calc(1vw + 2vh);
 }
 
 .nav-items {
@@ -75,13 +75,8 @@ body a {
   column-gap: 1.25rem;
 }
 
-.nav-items .option-container .iconify {
-  min-width: 10%;
-  min-height: 50%;
-}
-
 .nav-items .option-container h3 {
-  font-size: calc(1vw + 40%);
+  font-size: calc(2vh + 0.5vw);
 }
 
 .nav-items .option-container:hover {
@@ -171,7 +166,7 @@ body a {
 }
 
 .mini-user-info h4 {
-  font-size: calc(1vw + 20%);
+  font-size: calc(1vw + 0.5vh);
   font-weight: bolder;
 }
 
@@ -378,14 +373,12 @@ main {
 }
 
 .announcement-wrapper h4 {
-  max-height: 100%;
   font-size: calc(1vw + 10%);
   font-weight: bolder;
 }
 
 .announcement-wrapper p {
   font-size: calc(0.7vw + 15%);
-  /*line-height: 0.875rem;*/
   line-height: 110%;
   color: #8b8a8a;
 }
@@ -415,7 +408,7 @@ main {
   display: grid;
   row-gap: 8%;
   align-content: space-evenly;
-  padding: 24px;
+  padding: 1.5rem;
 }
 
 .trending-topic {
