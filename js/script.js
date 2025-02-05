@@ -16,8 +16,8 @@ function changeIcon() {
 const button = document.querySelector(".test");
 button.addEventListener("click", () => {
 
-  const titleText = prompt("Write an title for your project!");
-  const descriptionText = prompt("Write an description for your project!");
+  const titleText = prompt("Write a title for your project!");
+  const descriptionText = prompt("Write a description for your project!");
 
   if (titleText && descriptionText) {
 
