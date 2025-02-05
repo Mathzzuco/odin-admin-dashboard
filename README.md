@@ -1,4 +1,4 @@
-A project from the Odin course using html and css to recreate an admin dashboard page based on an image. Some extra features were added via javascript, those being the possibility to toggle the notification bell by clicking it and being able to publish projects on the board by clicking the 'NEW' button. You can look at the page through this link: https://mathzzuco.github.io/odin-admin-dashboard/
+A project from the Odin course to practice grid, using html and css to recreate an admin dashboard page based on an image. Some extra features were added via javascript, those being the possibility to toggle the notification bell by clicking it and being able to publish projects on the board by clicking the 'NEW' button. You can look at the page through this link: https://mathzzuco.github.io/odin-admin-dashboard/
 
 Odin Project Image:
 <img width="1440" alt="dashboard-project" src="https://github.com/user-attachments/assets/4aec5b1d-5f86-4636-aef1-b2c7d64a411b" />
